@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio V2",
+    "tags": ["React", "JavaScript"],
+    "cover": "./images/projets/portfolio2.PNG",
+    "alt": "Screen de la V2 de mon portfolio en ligne.",
+    "description": "V2 de mon portfolio. Dév avec React.",
+    "demo": "https://jbbesancon.netlify.app/"
+  },
+  {
+    "id": 2,
+    "title": "Argent Bank",
+    "tags": ["Formation", "React", "JavaScript", "Redux"],
+    "cover": "./images/projets/argentBank.PNG",
+    "alt": "Screen du site d'Argent Bank.",
+    "description": "Argent Bank est une application bancaire permettant le gestion de ses comptes.",
+    "demo": ""
+  },
+
+  {
+    "id": 3,
+    "title": "724 Event",
+    "tags": ["Formation", "Débug", "React", "JavaScript"],
+    "cover": "./images/projets/724Event.PNG",
+    "alt": "Screen du site 724 Events, organisateur d'évenements.",
+    "description": "Organisateur d'évenements. Débug du site.",
+    "demo": ""
+  },
+  {
+    "id": 4,
+    "title": "Sophie Bluel - Architecte d'intérieur",
+    "tags": ["Formation", "Javascript", "Scss"],
+    "cover": "./images/projets/sophieBluel.PNG",
+    "alt": "Screen du site de l'architecte Sophie Bluel.",
+    "description": "Mise à jour du site. Création d'une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias. "
+  },
+  {
+    "id": 5,
+    "title": "OhMyFood",
+    "tags": ["Formation", "Html", "Css", "Scss", "Animations"],
+    "cover": "./images/projets/ohmyfood.PNG",
+    "alt": "Screen du site Ohmyfood.",
+    "description": "Site permettant la réservation de menus de restaurants. Intégration de la maquette.",
+    "demo": "https://jbb777.github.io/OCProject4/"
+  },
+  {
+    "id": 6,
+    "title": "Nina Carducci - Photographe",
+    "tags": ["Formation", "Référencement", "Accessibilité"],
+    "cover": "./images/projets/ninaCarducci.PNG",
+    "alt": "Screen du site de la photographe Nina Carducci.",
+    "description": "Mise à jour du site de la photographe Nina Carducci afin d'améliorer les performances, le référencement et l'accessibilité du site suite à l'identification des problèmes de chargement et de référencement.",
+    "demo": "https://jbb777.github.io/OCProject8/"
+  },
+  {
+    "id": 7,
+    "title": "Agence Immobilière Kasa",
+    "tags": ["Formation", "React", "Scss"],
+    "cover": "./images/projets/kasa.PNG",
+    "alt": "Screen du site de l'agence Kasa.",
+    "description": "Site de l'agence de location immobilière Kasa.",
+    "demo": "https://agence-kasa-jbb.netlify.app/"
+  },
+  {
+    "id": 8,
+    "title": "Portfolio V1",
+    "tags": ["React", "JavaScript"],
+    "cover": "./images/projets/portfolio.PNG",
+    "alt": "Screen de mon portfolio en ligne.",
+    "description": "V1 de mon portfolio.",
+    "demo": "https://jbbesancon-portfolio.netlify.app/"
+  }
+]

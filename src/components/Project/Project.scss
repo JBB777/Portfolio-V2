@@ -1,0 +1,73 @@
+.project {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  margin-bottom: 50px;
+
+  img {
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+    order: 2;
+    object-position: top;
+    border: solid rgb(50, 50, 50);
+    border-radius: 5px;
+    border-width: 1px;
+
+    &:hover {
+      border-color: rgb(70, 70, 70);
+    }
+  }
+
+  h4 {
+    margin: 0;
+
+    &:hover {
+      color: var(--cyan-color);
+      a {
+        color: var(--cyan-color);
+      }
+    }
+  }
+
+  p {
+    margin: 5px 0 10px 0;
+  }
+
+  &__icon {
+    width: 10px;
+    margin-bottom: -1px;
+    padding-left: 7px;
+  }
+
+  &__tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .project {
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+
+    h4 {
+      margin-top: -6px;
+    }
+
+    img {
+      order: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .project {
+    &:hover {
+      background-color: rgb(26, 36, 60);
+    }
+  }
+}

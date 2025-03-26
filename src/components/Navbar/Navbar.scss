@@ -1,0 +1,30 @@
+.navbar {
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
+  .navbar {
+    display: inline;
+    width: fit-content;
+
+    ul {
+      padding: 0;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .styledList {
+      display: block;
+      width: 40px;
+      border-top: 1px solid white;
+    }
+
+    ul {
+      list-style: none;
+    }
+  }
+}

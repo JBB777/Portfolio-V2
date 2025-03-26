@@ -1,0 +1,53 @@
+:root {
+  --bg-color: rgb(15 23 42);
+  --font-color: white;
+  --title-color: rgb(248, 245, 187);
+  --cyan-color: rgb(94 234 212);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.625;
+
+  ::selection {
+    background-color: var(--cyan-color);
+    color: rgb(87, 87, 87);
+  }
+}
+
+p {
+  color: rgb(148 163 184);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  white-space: wrap;
+  margin: 0;
+  line-height: 0.9;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  h1 {
+    white-space: nowrap;
+  }
+}
